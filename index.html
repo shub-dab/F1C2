@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#">Library System</a>
+        <div>
+            <a href="#books">Books</a>
+            <a href="#register">Register</a>
+            <a href="#">About Us</a>
+            <a href="#">Logout</a>
+        </div>
+    </nav>
+
+    <section id="books">
+        <div id="books-div">
+            <h3 id="books-heading">Books</h3>
+            <table>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <a href="#">To Kill a Mocking Bird</a>
+                        <table>
+                            <tr>
+                                <td>Publication Date: 1968</td>
+                            </tr>
+                            <tr>
+                                <td>Page count: 336</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 21218298765</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Harper Lee</td>
+                    <td>Classics</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <a href="#">Watchmen</a>
+                        <table>
+                            <tr>
+                                <td>Publication Date: 2003</td>
+                            </tr>
+                            <tr>
+                                <td>Page count: 450</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 735417898765</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Alan Moore</td>
+                    <td>Comic Book</td>
+                    <td>Not Available</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <a href="#">Sherlock Holmes</a>
+                        <table>
+                            <tr>
+                                <td>Publication Date: 2008</td>
+                            </tr>
+                            <tr>
+                                <td>Page count: 372</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 478393898765</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Sir Arthur</td>
+                    <td>Mystery</td>
+                    <td>Not Available</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>
+                        <a href="#">Circe</a>
+                        <table>
+                            <tr>
+                                <td>Publication Date: 2012</td>
+                            </tr>
+                            <tr>
+                                <td>Page count: 433</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 524189898765</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Madeline Miller</td>
+                    <td>Fantasy</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td>
+                        <a href="#">Bird Box</a>
+                        <table>
+                            <tr>
+                                <td>Publication Date: 2013</td>
+                            </tr>
+                            <tr>
+                                <td>Page count: 305</td>
+                            </tr>
+                            <tr>
+                                <td>ISBN: 681253898765</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Josh Malerman</td>
+                    <td>Horror</td>
+                    <td>Available</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <section id="register">
+        <div id="register-div">
+            <h3>Register</h3>
+            <form>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" required>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" required>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" required>
+                <label for="age">Age</label>
+                <input type="number" min="5" max="30" id="age" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" required>
+                <label for="pass">Password</label>
+                <input type="password" id="pass" required>
+                <label for="cpass">Confirm Password</label>
+                <input type="password" id="cpass" required>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+
+    </section>
+</body>
+
+</html>
